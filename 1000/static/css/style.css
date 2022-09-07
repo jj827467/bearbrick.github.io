@@ -1,14 +1,3 @@
-/* =================================
-------------------------------------
-  Mondy - Real Estate HTML Template
-  Version: 1.0
- ------------------------------------
- ====================================*/
-
-/*----------------------------------------*/
-
-/* Template default CSS
-/*----------------------------------------*/
 
 html,
 body {
@@ -53,12 +42,6 @@ h6 {
 	font-size: 16px;
 }
 
-p {
-	font-size: 15px;
-	color: #6a6a6a;
-	line-height: 2;
-}
-
 img {
 	max-width: 100%;
 }
@@ -88,17 +71,10 @@ Helper CSS
 
 .section-title {
 	text-align: center;
-	margin-bottom: 65px;
+	margin-bottom: 30px;
 }
 
-.section-title h2 {
-	font-size: 72px;
-}
 
-.section-title p {
-	padding: 25px 30px 10px;
-	margin-bottom: 0;
-}
 
 .set-bg {
 	background-repeat:no-repeat;
@@ -1505,4 +1481,8 @@ Responsive
 	.contact-form .site-btn {
 		min-width: auto;
 	}
+}
+
+.one img{
+	margin: auto;
 }
