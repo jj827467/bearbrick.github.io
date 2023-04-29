@@ -87,16 +87,19 @@
 
 </body>
 <script>
-	var one = ["400/1.jpg", "400/2.jpg", "400/3.jpg","400/4.jpg",,"400/13.jpg"];
+	var one = ["400/1.jpg", "400/2.jpg", "400/3.jpg","400/4.jpg"];
 	var two = [ "400/5.jpg", "400/6.jpg","400/7.jpg","400/8.jpg"];
-	var three = ["400/9.jpg","400/10.jpg","400/11.jpg","400/12.jpg"];
+	var three = ["400/9.jpg","400/10.jpg","400/11.jpg","400/12.jpg","400/13.jpg"];
 	var img1 = '';
 	var img2 = '';
 	var img3 = '';
-	for (var i = 0; i < 3; i++) {
+	for (var i = 0; i <one.length; i++) {
 		img1 += '<img src="' + one[i] + '">';
 		img2 += '<img src="' + two[i] + '">';
-		img3 += '<img src="' + three[i] + '">';
+	}
+	for (var j=0;j<three.length;j++)
+	{
+		img3 += '<img src="' + three[j] + '">';
 	}
 
 	document.getElementById("img1").innerHTML = img1;
