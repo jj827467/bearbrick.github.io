@@ -28,12 +28,11 @@
 		<a href="" class="site-logo">
 			<img src="" alt="">
 		</a>
-		<!--搜索欄-->
 		<nav class="header-nav">
 			<ul class="main-menu">
-				<li><a href="index.html">本頁推荐</a></li>
-				<li><a href="1000.html">1000%</a></li>
+				<li><a href="200.html" >200%</a></li>
 				<li><a href="400.html" class="active">400%</a></li>
+				<li><a href="1000.html">1000%</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -41,70 +40,48 @@
 	<section class="hero-section set-bg" data-setbg="img/background.JPG">
 	</section>
 
-
-
-	<section class="property-section">
-		<div class="img-title">
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="property-item">
-						<div class="pi-image">
-							<div id="img1"></div>
-					
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4">
-					<div class="property-item">
-						<div class="pi-image">
-							<div id="img2"></div>
-					
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4">
-					<div class="property-item">
-						<div class="pi-image">
-							<div id="img3"></div>
-					
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
+	<div class="pic">
+		<table class="table">
+			<tr>
+				<td class="td"><img src="400/1.jpg"></td>
+				<td class="td"><img src="400/2.jpg"></td>
+				<td class="td"><img src="400/3.jpg"></td>
+				
+			</tr>
+			<tr>
+				<td class="td"><img src="400/4.jpg"></td>
+				<td class="td"><img src="400/5.jpg"></td>
+				<td class="td"><img src="400/6.jpg"></td>
+			</tr>
+			<tr>
+				<td class="td"><img src="400/7.jpg"></td>
+				<td class="td"><img src="400/8.jpg"></td>
+				<td class="td"><img src="400/9.jpg"></td>
+			</tr>
+			<tr>
+				<td class="td"><img src="400/10.jpg"></td>
+				<td class="td"><img src="400/11.jpg"></td>
+				<td class="td"><img src="400/12.jpg"></td>
+			</tr>
+			<tr>
+				<td class="td"><img src="400/13.jpg"></td>
+				<td class="td"><img src="400/14.jpg"></td>
+				<td class="td"><img src="400/15.jpg"></td>
+			</tr>
+			<tr>
+				<td class="td"><img src="400/16.jpg"></td>
+			</tr>
+		</table>
+	</div>
 	<!--====== Javascripts & Jquery ======-->
 	<script src="static/js/jquery-3.2.1.min.js"></script>
 	<script src="static/js/bootstrap.min.js"></script>
 	<script src="static/js/jquery.slicknav.min.js"></script>
 	<script src="static/js/jquery.magnific-popup.min.js"></script>
 	<script src="static/js/main.js"></script>
-	<script src="static/js/rem.js"></script>
+
 
 
 </body>
-<script>
-	var one = ["400/1.jpg", "400/2.jpg", "400/3.jpg","400/4.jpg",,"400/13.jpg"];
-	var two = [ "400/5.jpg", "400/6.jpg","400/7.jpg","400/8.jpg"];
-	var three = ["400/9.jpg","400/10.jpg","400/11.jpg","400/12.jpg"];
-	var img1 = '';
-	var img2 = '';
-	var img3 = '';
-	for (var i = 0; i < 3; i++) {
-		img1 += '<img src="' + one[i] + '">';
-		img2 += '<img src="' + two[i] + '">';
-		img3 += '<img src="' + three[i] + '">';
-	}
-
-	document.getElementById("img1").innerHTML = img1;
-	document.getElementById("img2").innerHTML = img2;
-	document.getElementById("img3").innerHTML = img3;
-
-
-
-</script>
 
 </html>
